@@ -31,10 +31,10 @@ class LinkCreate extends Component {
         return (
             <form onSubmit={this.handleSubmit.bind(this)}>
                 <div className="form-group">
-                    <label>Link To Shorten</label>
+                    <label>Link To Shorten : </label>
                     <input ref="input" className="form-control" />
                 </div>
-                <button className="btn btn-primary">Shorten It !</button>
+                <button className="btn btn-primary">Shorten!</button>
                 <div className="text-danger">{this.state.error}</div>
             </form>
         );

@@ -1,0 +1,9 @@
+form {
+    padding-top: 0.5cm;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+}
+
+input.form-control {
+    width: 700px;
+}
